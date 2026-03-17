@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="uc" />
         <module name="uc5" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="QuantityMeasurementApp" target="1.5" />
+      <module name="uc" target="22" />
+    </bytecodeTargetLevel>
   </component>
 </project>
